@@ -34,7 +34,7 @@ $(call inherit-product, device/samsung/i9300/full_i9300.mk)
 # Specify phone tech before including full_phone
 $(call inherit-product, vendor/tesla/config/gsm.mk)
 
-# Inherit some common Slim stuff.
+# Inherit some common Tesla stuff.
 $(call inherit-product, vendor/tesla/config/common_full_phone.mk)
 
 

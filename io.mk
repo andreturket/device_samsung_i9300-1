@@ -35,7 +35,7 @@ $(call inherit-product, device/samsung/i9300/full_i9300.mk)
 $(call inherit-product, vendor/tesla/config/gsm.mk)
 
 # Inherit some common Infinitive stuff.
-$(call inherit-product, vendor/infinitive/config/common_full_phone.mk)
+$(call inherit-product, vendor/io/config/common_full_phone.mk)
 
 
 # Configure dalvik heap

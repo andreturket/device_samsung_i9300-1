@@ -34,15 +34,15 @@ $(call inherit-product, device/samsung/i9300/full_i9300.mk)
 # Specify phone tech before including full_phone
 $(call inherit-product, vendor/tesla/config/gsm.mk)
 
-# Inherit some common Tesla stuff.
-$(call inherit-product, vendor/tesla/config/common_full_phone.mk)
+# Inherit some common Infinitive stuff.
+$(call inherit-product, vendor/infinitive/config/common_full_phone.mk)
 
 
 # Configure dalvik heap
 $(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
 
 # Discard inherited values and use our own instead.
-PRODUCT_NAME := tesla_i9300
+PRODUCT_NAME := infinitive_i9300
 PRODUCT_DEVICE := i9300
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
